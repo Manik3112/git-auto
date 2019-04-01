@@ -24,3 +24,6 @@ function deploy(res){
         res.send(200);
       });
 }
+app.listen(8081, ()=>{
+  console.log('listen')
+})
