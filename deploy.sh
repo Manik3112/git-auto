@@ -6,6 +6,6 @@ echo "Pulled successfully from master"
 
 echo "Restarting server..."
 
-node app.js
+pm2 restart app.js
 
 echo "Server restarted Successfully"
