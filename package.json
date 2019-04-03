@@ -9,6 +9,5 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "tookan-api": "^1.0.4"
   }
 }
