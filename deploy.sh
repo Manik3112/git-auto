@@ -10,6 +10,6 @@ echo "Installing New Modules if Any"
 
 echo "Restarting server..."
 
-pm2 restart app.js
+forever restart app.js
 
 echo "Server restarted Successfully"
