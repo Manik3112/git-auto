@@ -11,6 +11,7 @@ app.post("/webhooks/github", function (req, res) {
     // var sender = req.body.sender;
     // var branch = req.body.ref;
     // if(branch.indexOf('master') > -1){
+console.log('>>>>>>>>>>>>>>>>>>>Finally>>>>>>>>>>>>>>>>');
         deploy(res);
     // }
 })
