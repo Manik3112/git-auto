@@ -10,6 +10,7 @@ echo "Installing New Modules if Any"
 
 echo "Restarting server..."
 
-forever restart app.js
+forever stopall
+forever start app.js
 
 echo "Server restarted Successfully"
